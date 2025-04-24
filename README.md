@@ -1,6 +1,6 @@
 ## Seeing Red: The Emotional Toll of Staying Informed
 
-#Project Description
+##Project Description
 
 I am an American, and I keep feeling exhausted by the state of my country and the role we play in the world. Every day, there are new headlines about terrible events, and it feels impossible to keep up. I want to be engaged in political matters and stand up for important issues, but at some point, the sheer volume of problems makes it feel hopeless. No one person can advocate for every cause, and that helplessness is what I wanted to capture in this project.
 
@@ -11,7 +11,7 @@ Building this project was more experimental than I expected. I knew I wanted to 
 The hardest part was figuring out how to display everything correctly. I started by adding full titles one after another, then realized I needed to handle each word separately. That meant splitting every title again, applying the sentiment scoring function, and making sure the colors updated properly. In the end, I needed two main display functions—one for showing the raw titles and another for redrawing the scored words on top. It took a lot of trial and error, but now it works exactly as I imagined. 
 
 
-#Project Images
+##Project Images
 
 <img width="1328" alt="Screenshot 2025-03-19 at 9 07 45 PM" src="https://git.arts.ac.uk/24001912/CCI-Course-Notebook-2/assets/1208/0cc05559-9896-44e6-a23b-e3c26d1291ee">
 <img width="1342" alt="Screenshot 2025-03-19 at 9 08 03 PM" src="https://git.arts.ac.uk/24001912/CCI-Course-Notebook-2/assets/1208/0afc8706-a936-40b8-9610-072614ac7209">
@@ -21,7 +21,7 @@ Early Sketch of Original Idea:
 <img width="780" alt="Screenshot 2025-03-19 at 9 09 48 PM" src="https://git.arts.ac.uk/24001912/CCI-Course-Notebook-2/assets/1208/a0529ee4-d3bc-4125-bbf5-47e5293ba31e">
 
 
-#References:
+##References:
 
 Anthropic. (2025). Claude AI [online]. Available at: https://claude.ai [Accessed 19 March 2025].
 
