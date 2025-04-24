@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>seeing red</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+
+    
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      //  https://www.geeksforgeeks.org/print-current-day-and-time-using-html-and-javascript/
+      let myDate = new Date();
+      let myDay = myDate.getDay();
+      let options = { month: 'long', day: 'numeric', year: 'numeric' }; // For "March 19, 2025"
+      let formattedDate = myDate.toLocaleDateString('en-US', options);
+
+      let weekday = ['Sunday', 'Monday', 'Tuesday',
+          'Wednesday', 'Thursday', 'Friday', 'Saturday'
+      ];
+      document.write("<div class='large-text'>\t " + weekday[myDay] + ' ' + formattedDate);
+      document.write("<br/>");
+  </script>
+  <p> The state of our world...will it have you seeing red or green? </p>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
